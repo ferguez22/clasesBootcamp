@@ -1,0 +1,17 @@
+@import url(reset.css);
+
+body {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+article {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+}

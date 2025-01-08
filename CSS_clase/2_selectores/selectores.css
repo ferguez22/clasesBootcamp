@@ -1,0 +1,22 @@
+p {
+    color: black;
+}
+
+section p {
+    color: #FF5733;
+}
+
+#segundaSeccion {
+    background-color: #FFC300;
+    border-radius: 5px;
+}
+
+p.par {
+    background-color: #DAF7A6;
+    border-radius: 5px;
+}
+
+p.impar {
+    background-color: #FF5733;
+    border-radius: 5px;
+}

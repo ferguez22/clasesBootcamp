@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.fijas {
+    width: 500px;
+    height: 400px;
+    background-color: lightgreen;
+}
+
+.maximas {
+    max-width: 600px;
+    background-color: lightblue;
+}
+
+.porcentajes {
+    width: 80%;
+    background-color: lightsalmon;
+}
+
+/* Puedes usarlo por ejemplo para una caja que ocupe el 100% de la ventana del navegador asi este en blanco */
+.viewport {
+    width: 50vw;
+    height: 20vh;
+    background-color: lightgoldenrodyellow;
+}
+
+ul {
+    padding-left: 30px;
+    list-style: none;
+    list-style-image: url(../../images/arrow.png);
+}

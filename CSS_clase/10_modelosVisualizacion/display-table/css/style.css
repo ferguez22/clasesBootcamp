@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.tabla {
+    display: table;
+    width: 100%;
+}
+
+.tabla>div {
+    border: 1px solid black;
+    display: table-row;
+}
+
+.tabla>div>div {
+    display: table-cell;
+}

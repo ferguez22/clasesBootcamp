@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+}
+
+.uno {
+    background-color: lightcoral;
+
+}
+
+.dos {
+    background-color: lightblue;
+}
+
+.tres {
+    background-color: lightgreen;
+}

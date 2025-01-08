@@ -1,0 +1,20 @@
+body {
+    /* background-color: rgb(12, 100, 55); rgb normal */
+    /* background-color: rgba(197, 46, 46, 0.5);   Igual que rgb pero con opacidad*/
+    /* background-color: #778beb; codigo de color */
+    /* background-color: bisque;  color escrito sin más */
+
+    background-image: url(../../HTML/4_imagenes/images/razas-perro-pequenos-grandes-m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cuadrado {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.653);
+    background-image: url(../../HTML/4_imagenes/images/zapatillas_running.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}

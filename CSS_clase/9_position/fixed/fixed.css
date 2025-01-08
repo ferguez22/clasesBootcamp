@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
+.uno {
+    background-color: lightblue;
+}
+
+.dos {
+    background-color: lightcoral;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 70;
+}
+
+.tres {
+    background-color: lightgreen;
+}

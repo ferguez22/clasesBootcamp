@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    height: 500px;
+    background-color: rgb(90, 228, 228);
+    justify-content: space-evenly;
+    /* start (izq) end (derech)
+    space-between, space-around*/
+    align-items: center;
+}
+
+section article {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+section .caja1 {
+    align-self: flex-start;
+}
+
+section .caja2 {
+    align-self: center;
+}
+
+section .caja3 {
+    align-self: flex-end;
+}

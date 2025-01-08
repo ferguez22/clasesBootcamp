@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+    /* Quiero decidir cuanto ocupa cada elemento individualmente o parejas se utiliza flex wrap */
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+/* Ojo si usais margine en lugar de gap al espacio intercolumnar es el doble que con gap */
+
+section article {
+    height: 100px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+section .caja1 {
+    background-color: lightcoral;
+    width: calc(25% - 5px);
+}
+
+section .caja2 {
+    background-color: lightseagreen;
+    width: calc(50% - 5px);
+}
+
+section .caja3 {
+    background-color: lightgreen;
+    width: calc(25% - 5px);
+}
+
+section .caja4 {
+    background-color: lightblue;
+    width: calc(75% - 5px);
+}

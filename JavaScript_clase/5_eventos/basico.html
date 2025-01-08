@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basico</title>
+    <style>
+        body {
+            transition: 0.5s;
+        }
+
+        .cuadrado {
+            width: 400px;
+            height: 400px;
+            background-color: steelblue;
+            border-radius: 10px;
+            margin: 0px;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Eventos Basicos</h1>
+
+    <button onclick="pulsarBoton(this)">¡PULSAME!</button>
+
+    <div class="cuadrado" onmouseenter=ratonEntra(this) onmouseleave=ratonSale(this)></div>
+
+    <button id="btnListener">Botón con listener</button>
+
+    <!-- Botones para cambiar el color de fondo -->
+    <ul class="menu">
+        <li id="dodgerblue">Azul</li>
+        <li id="tomato">Rojo</li>
+        <li id="lightcoral">Verde</li>
+        <li id="lightgreen">Verde</li>
+    </ul>
+
+    <script src=" ./JavaScript/basicos.js">
+    </script>
+</body>
+
+</html>

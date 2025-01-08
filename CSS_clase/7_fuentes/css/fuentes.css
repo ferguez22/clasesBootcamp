@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: lightslategray;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+body {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: lightsalmon;
+    font-style: italic;
+    font-weight: 800;
+}
+
+p {
+    font-family: Montserrat;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* text-shadow: 1px 1px 2px; */
+}
+
+a {
+    font-family: "Protest Guerrilla", sans-serif;
+    text-decoration: none;
+}
+
+.word {
+    font-size: 100px;
+}
+
+.tenedor {
+    font-size: 100px;
+}
+
+.vaso {
+    font-size: 100px;
+}
+
+.laptop {
+    font-size: 100px;
+}
+
+.perro {
+    font-size: 100px;
+}

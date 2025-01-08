@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .enlace {
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem;
+        }
+
+        .boton {
+            margin: 1.25rem;
+            padding: 0.625rem;
+            background-color: rgb(113, 206, 106);
+            border-radius: 0.3125rem;
+            width: 13vh;
+            height: 3vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
+
+        .boton:hover {
+            background-color: rgb(96, 175, 91);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../main.html" class="enlace">
+        <div class="boton">Volver a inicio</div>
+    </a>
+
+    <h1>Probando Formularios</h1>
+    <!-- Action determina el archivo donde vamos a enviar la información -->
+    <!-- method determina  -->
+    <form action="" method="post">
+        <div>
+            <label for="inputNombre">Nombre</label>
+            <input type="text" name="nombre" id="inputNombre" placeholder="Introduce tu nombre">
+        </div>
+        <div>
+            <label for="inputEdad">Edad</label>
+            <input type="number" name="edad" id="inputEdad" placeholder="Introduce tu edad">
+        </div>
+        <div>
+            <label for="inputEmail">Email</label>
+            <input type="email" name="email" id="inputEmail" placeholder="Introduce tu email">
+        </div>
+        <div>
+            <label for="input">Telefono</label>
+            <input type="tel" name="telefono" id="inputTelefono" placeholder="Introduce tu telefono">
+        </div>
+        <div>
+            <label for="inputPassword">Contraseña</label>
+            <input type="password" name="Contraseña" id="inputPassword" placeholder="Introduce tu contraseña">
+        </div>
+        <div>
+            <p>¿Cual lenguaje de programación odias más?</p>
+            <input type="radio" name="Pregunta" id="inputHTML">
+            <label for="inputHTML">HTML</label><br>
+
+            <input type="radio" name="Pregunta" id="inputCSS">
+            <label for="inputcSS">CSS</label><br>
+
+            <input type="radio" name="Pregunta" id="inputJavaScript">
+            <label for="inputJavaScript">JavaScript</label><br>
+
+            <input type="radio" name="Pregunta" id="inputJava">
+            <label for="inputJava">Java</label><br>
+
+            <input type="radio" name="Pregunta" id="inputPhyton">
+            <label for="inputPhyton">Phyton</label><br>
+
+            <input type="radio" name="Pregunta" id="inputPHP">
+            <label for="inputPHP">PHP</label><br><br>
+
+        </div>
+        <div>
+            <label for="inputSelect">Selecciona tu nacionalidad</label>
+            <select name="nacionalidad" id="inputSelect">
+                <option></option>
+                <option value="es">España</option>
+                <option value="ve">Venezuela</option>
+                <option value="fr">Francia</option>
+                <option value="it">Italia</option>
+                <option value="co">Colombia</option>
+                <option value="eu">Estados Unidos</option>
+                <option value="mx">Mexico</option>
+            </select>
+        </div>
+        <div>
+            <label for="textarea">Descripción</label>
+            <textarea name="" id="" placeholder="Cuentanos un poco sobre ti"></textarea>
+        </div><br>
+        <div>
+            <input type="checkbox" name="inputAceptar" id="inputAceptar">
+            <label for="inputAceptar">Acepto los terminos y condiciones</label>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+</body>
+
+</html>

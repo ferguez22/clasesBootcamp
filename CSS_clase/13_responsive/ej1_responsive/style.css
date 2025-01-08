@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Dos modelos : MobileFirts o Desktop  */
+
+
+
+
+.caja {
+    /* un sistema de medida alternativo a los pixeles, em o rem. Se fija como valor inicial el tamaño de la fuente defecto del usuario es decir 16px -> 1em 1 rem */
+    max-width: 43.75rem;
+    /* width: 60%; */
+    margin: 0 auto;
+    height: 20vh;
+    background-color: black;
+    color: white;
+}
+
+/*
+@media(min-width: 800px) {
+
+    /* Estoy de dentro de otra hoja de estilo y deben ir siempre a final de contain-intrinsic-size:  */
+.caja {
+    background-color: red;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 20px;
+}
+}
+
+*/

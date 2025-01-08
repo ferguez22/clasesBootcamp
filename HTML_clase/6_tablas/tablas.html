@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .enlace {
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem;
+        }
+
+        .boton {
+            margin: 1.25rem;
+            padding: 0.625rem;
+            background-color: rgb(113, 206, 106);
+            border-radius: 0.3125rem;
+            width: 13vh;
+            height: 3vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
+
+        .boton:hover {
+            background-color: rgb(96, 175, 91);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="../main.html" class="enlace">
+        <div class="boton">Volver a inicio</div>
+    </a>
+
+    <h1>Probando Tablas
+    </h1>
+    <table width="50%" ,border="10">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sara</td>
+                <td>Sanchez</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Valentina</td>
+                <td>Ortiz</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Días</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Rodriguez</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Mario</td>
+                <td>Bros</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Luisa</td>
+                <td>Gomez</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Perez</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+        <tfooter></tfooter>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table width="50%" , border="10">
+        <thead>
+            <tr>
+                <th colspan="4">Lenguajes de Programación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Front</th>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td rowspan="2">JavaScript</td>
+            </tr>
+            <tr>
+                <th>Back</th>
+                <td>PHP</td>
+                <td>Java</td>
+            </tr>
+        </tbody>
+        <tfooter></tfooter>
+    </table>
+
+</body>
+
+</html>
