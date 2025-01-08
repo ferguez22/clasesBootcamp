@@ -4,94 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina principal
-    </title>
+    <title>Pagina principal</title>
     <link rel="stylesheet" href="main.css">
     <style>
         * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
 
-html,
-body {
-    width: 100%;
-    overflow-x: hidden;
-    /* Evita el scroll horizontal */
-    font-family: Arial, Helvetica, sans-serif;
-}
+        html,
+        body {
+            width: 100%;
+            overflow-x: hidden;
+            /* Evita el scroll horizontal */
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-.container {
-    background-color: lightslategrey;
-    min-height: 100vh;
-    overflow: hidden;
-    color: white;
-}
+        .container {
+            background-color: rgb(181, 181, 181);
+            min-height: 100vh;
+            overflow: hidden;
+            color: white;
+        }
 
-.container h1 {
-    font-size: 4rem;
-}
+        .container h1 {
+            font-size: 4rem;
+        }
 
-.wrapper {
-    background-color: cornflowerblue;
-    margin: 2.5rem;
-    height: 80vh;
-    border-radius: 1.25rem;
-    padding: 3.125rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+        .wrapper {
+            background-color: rgb(18, 51, 112);
+            margin: 2.5rem;
+            border-radius: 1.25rem;
+            padding: 3.125rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+        }
 
-.cuadrados {
-    margin-top: 1.25rem;
-    background-color: antiquewhite;
-    border-radius: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    height: 80%;
-    width: 80%;
-    align-content: center;
-    justify-items: center;
-    gap: 3rem;
-}
+        .cuadrados {
+            margin-top: 1.25rem;
+            background-color: white;
+            border-radius: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(13vh, 1fr));
+            width: 80%;
+            align-content: center;
+            justify-items: center;
+            gap: 3rem;
+            padding: 50px
+        }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-}
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: auto;
+            text-align: center;
+        }
 
-.cuadrados div {
-    background-color: rgb(113, 206, 106);
-    border-radius: 0.3125rem;
-    width: 13vh;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-}
+        .cuadrados div {
+            background-color: rgb(171, 36, 36);
+            border-radius: 0.3125rem;
+            width: 13vh;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
 
-.cuadrados div:hover {
-    background-color: rgb(96, 175, 91);
-    transform: scale(1.1);
-}
+        .cuadrados div:hover {
+            background-color: rgb(247, 96, 96);
+            transform: scale(1.1);
+        }
 
-.botonAtras{
-    background-color: rgb(113, 206, 106);
-    border-radius: 0.3125rem;
-    width: 13vh;
-    height: 6vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-    margin: 10px;
-}
-
+        .botonAtras {
+            background-color: rgb(113, 206, 106);
+            border-radius: 0.3125rem;
+            width: 13vh;
+            height: 6vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+            margin: 10px;
+        }
     </style>
 </head>
 
@@ -105,73 +104,47 @@ a {
         <h1>Pagina principal CSS</h1>
         <p>Para organizar todas las clases de CSS</p>
         <div class="cuadrados">
-
             <a href="../CSS_clase/1_basicos/basicos.html">
                 <div>Basicos</div>
             </a>
-
             <a href="../CSS_clase/2_selectores/selectores.html">
-                <Div>Selectores</Div>
+                <div>Selectores</div>
             </a>
-
             <a href="../CSS_clase/3_backgorund/background.html">
                 <div>background</div>
             </a>
-
             <a href="../CSS_clase/4_modeloCaja/modeloCaja.html">
                 <div>Modelo Caja</div>
             </a>
-
             <a href="../CSS_clase/5_normalizacion/normalizacion.html">
                 <div>Normalización</div>
             </a>
-
             <a href="../CSS_clase/6_medidas/medidas.html">
                 <div>Medidas</div>
             </a>
-
             <a href="../CSS_clase/7_fuentes/fuentes.html">
                 <div>Fuentes</div>
             </a>
-
             <a href="../CSS_clase/8_reset/reset.html">
-            <div>Reset</div>
+                <div>Reset</div>
             </a>
-
             <a href="../CSS_clase/9_position/position.html">
-            <div>Position</div>
+                <div>Position</div>
             </a>
-            
             <a href="../CSS_clase/10_modelosVisualizacion/index.html">
-            <div>Modelos de Visualizacion</div>
+                <div>Modelos de Visualizacion</div>
             </a>
-            
             <a href="../CSS_clase/11_pseudoselectores/index.html">
-            <div>Pseudoselectores</div>
+                <div>Pseudoselectores</div>
             </a>
-
             <a href="../CSS_clase/12_cssGrid/index.html">
-            <div>CSS Grid</div>
+                <div>CSS Grid</div>
             </a>
-
             <a href="../CSS_clase/13_responsive/index.html">
-            <div>Responsive</div>
+                <div>Responsive</div>
             </a>
-
-            <a href="../CSS_clase/9_position/position.html">
-            <div>Position</div>
-            </a>
-
-            <a href="../CSS_clase/9_position/position.html">
-            <div>Position</div>
-            </a>
-
-            <a href="../CSS_clase/9_position/position.html">
-            <div>Position</div>
-            </a>
-
-            <a href="../CSS_clase/9_position/position.html">
-            <div>Position</div>
+            <a href="../CSS_clase/14_animaciones_transiciones/index.html">
+                <div>Animaciones y Transiciones</div>
             </a>
         </div>
     </div>

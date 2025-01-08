@@ -12,6 +12,10 @@
             margin: 0;
         }
 
+        .wrapper{
+            margin: 100px;
+        }
+
         .btn {
             a {
                 text-decoration: none;
@@ -37,7 +41,7 @@
         .enlace {
             text-decoration: none;
             color: white;
-            font-size: 1.3rem;
+            font-size: auto;
         }
 
         .boton {
@@ -57,6 +61,46 @@
             background-color: rgb(96, 175, 91);
             transform: scale(1.1);
         }
+
+        /*  PELOTA  */
+        .pelota {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgb(18, 200, 200);
+        position: relative;
+        animation-name: pelotaAnimacion;
+        animation-duration: 4s;
+        animation-delay: 0s;
+        animation-timing-function: infinite;
+    }
+
+    @keyframes pelotaAnimacion {
+        0% {
+            top: 0;
+            left: 0;
+        }
+
+        25% {
+            top: 0;
+            right: 300px;
+        }
+
+        50% {
+            top: 500px;
+            left: 500px;
+        }
+
+        75% {
+            top: 500px;
+            left: 0px;
+        }
+
+        100% {
+            top: 0;
+            left: 0;
+        }
+    }
     </style>
 </head>
 
@@ -66,8 +110,14 @@
             <div class="boton">Volver a inicio</div>
         </a>
     </header>
-    <div class="btn">
-        <a href="">Ver más</a>
+        <div class="wrapper">
+        <div class="btn">
+            <a href="#">Ver más</a>
+        </div>
+
+        <section>
+            <div class="pelota"></div>
+        </section>
     </div>
 </body>
 
