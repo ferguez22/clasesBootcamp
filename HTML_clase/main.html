@@ -7,17 +7,104 @@
     <title>Pagina principal
     </title>
     <link rel="stylesheet" href="main.css">
+    <style>
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        /* Evita el scroll horizontal */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        background-color: lightslategrey;
+        min-height: 100vh;
+        overflow: hidden;
+        color: white;
+    }
+
+    .container h1 {
+        font-size: 4rem;
+    }
+
+    .wrapper {
+        background-color: cornflowerblue;
+        margin: 2.5rem;
+        height: 80vh;
+        border-radius: 1.25rem;
+        padding: 3.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuadrados {
+        margin-top: 1.25rem;
+        background-color: antiquewhite;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 80%;
+        width: 80%;
+        align-content: center;
+        justify-items: center;
+        gap: 3rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .cuadrados div {
+        background-color: rgb(113, 206, 106);
+        border-radius: 0.3125rem;
+        width: 13vh;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    .cuadrados div:hover {
+        background-color: rgb(96, 175, 91);
+        transform: scale(1.1);
+    }
+    .botonAtras{
+        background-color: rgb(113, 206, 106);
+        border-radius: 0.3125rem;
+        width: 13vh;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+        margin: 10px;
+    }
+    </style>
 </head>
+
+<header>
+    <a href="../index.html" class="botonAtras">
+        <div>Bootcamp</div>
+    </a>
+</header>
 
 <body class="container">
     <div class="wrapper">
         <h1>Pagina principal HTML</h1>
         <p>Para organizar todas las clases de HTML</p>
         <div class="cuadrados">
-
-            <a href="../index.html">
-                <div>Bootcamp</div>
-            </a>
 
             <a href="../HTML_clase/1_basicos/basicos.html">
                 <div>Basicos</div>
